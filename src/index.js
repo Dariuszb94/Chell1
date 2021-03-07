@@ -27,7 +27,7 @@ function App() {
     <div className="App">
       {/* Show user data here */}
       <div className="user-deets">display user info here. happy coding!</div>
-
+<User user={user}/>
       <ScotchInfoBar />
     </div>
   );
